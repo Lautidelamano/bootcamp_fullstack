@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenedor{
+    margin: 2em;
+    text-align: -webkit-center;
+    background-color: rgb(246, 236, 236);
+    width: 35em;
+    height: 38em;
+}
+
+.titulo{
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+.formulario{
+    padding: 2em;
+    text-align: center;
+    border: 0.5px, solid, rgb(79, 74, 74);
+    border-radius: 0.2em;
+    background-color: white;
+    height: 22em;
+    width: 20em;
+}
+
+.contenedorButton{
+    width: 10em;
+    display: block;
+}
+
+label{
+    margin-left:1.7em ;
+    float: left;
+}
+
+input{
+    margin: 0.5em;
+    width: 20em;
+    height: 2em;
+    border: 0.5px, solid, gray;
+    background-color:rgb(255, 251, 246);
+}
+
+.button{
+    border-radius: 0.4em;
+    margin-top: 1em;
+    width: 10em;
+    height: 3em;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.botonEnviar{
+    margin-top: 1em;
+    width: 20em;
+    height: 2.5em;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 0.4em;
+}
+
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode input[type="text"], .dark-mode input[type="email"], .dark-mode input[type="date"]{
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode input[type="submit"] {
+    background-color: #0056b3;
+}
+
+.dark-mode div[class="formulario"]{
+    background-color: #333;
+
+}

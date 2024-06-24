@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecera{
+    background-color: black ;
+    height: 15em;
+}
+
+.separador{
+background-color: rgb(255, 90, 90);
+    height: 2em;
+}
+
+.contenedor{
+    background-color: darkgrey;
+    height: 40em;
+}
+
+.lista{
+    padding: 3em;
+}
+.elementos{
+    margin-top: 3em;
+}

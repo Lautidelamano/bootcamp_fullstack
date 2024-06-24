@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecera{
+    background-color: rgb(62, 61, 61) ;
+    height: 10em;
+}
+
+.separador{
+background-color: rgb(19, 30, 73);
+    height: 2em;
+}
+
+.contenedor{
+    display: flex;
+    background-color: darkgrey;
+    height: 40em;
+}
+
+.elementoUno{
+    background-color: darkgrey;
+    height: 100%;
+    width: 25%;
+}
+
+.elementoDos{
+    width: 75%;
+    background-color: brown;
+    height: 100%;
+}
+
+.separadorFin{
+    background-color: rgb(19, 30, 73);
+    height: 2em;
+    }
